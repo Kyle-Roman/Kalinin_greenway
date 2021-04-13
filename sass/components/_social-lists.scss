@@ -1,0 +1,20 @@
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .social-list__footer {
+    display: inline-block;
+    margin-left: 70px;
+    margin-bottom: 0;
+  }
+}

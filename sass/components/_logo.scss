@@ -1,0 +1,36 @@
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.08;
+  color: var(--accent-color);
+
+  .footer & {
+    margin-bottom: 20px;
+  }
+
+  &_theme {
+    &_header {
+      color: var(--logo-text-main);
+    }
+
+    &_footer {
+      color: var(--accent-text-color);
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    display: block;
+  }
+  .header .logo {
+    margin-right: 88px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    line-height: 1.19;
+    margin-right: 93px;
+  }
+}
