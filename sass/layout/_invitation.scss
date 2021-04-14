@@ -1,0 +1,16 @@
+.invitation {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/F100019168.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
