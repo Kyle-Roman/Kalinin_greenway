@@ -20,7 +20,7 @@
     <header class="header">
         <div class="container">
             <a href="./index.html" class="logo link">
-                <img src="./images/home (1).png" alt="homepage" width="40px">
+                <img src="./images/home (1).png" alt="homepage" width="20px">
             </a>
             <ul class="navigation-bar list">
                 <li class="navigation-bar__item">
@@ -38,9 +38,60 @@
             </ul>
             <div class="cart-page">
                 <a href="" class="cart-page__item">
-                    <img src="./images/header/shopping-cart.png" alt="cart" width="40px">
+                    <img src="./images/header/shopping-cart.png" alt="cart" width="20px">
                 </a>
             </div>
+            <button type="button" class="burger-btn" data-menu-button>
+                <svg class="burger-icon">
+                    <use href="./images/sprite.svg#icon-burger"></use>
+                </svg>
+            </button>
+            </div>
+            <div class="mobile-menu" data-menu>
+                <button type="button" class="mobile-menu-close-btn" data-menu-close>
+                    <svg class="mobile-close-icon">
+                        <use href="./images/sprite.svg#icon-menu-close"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-menu__list list">
+                    <li class="mobile-menu__item">
+                        <a href="./index.html" class="mobile-menu__link link current">О нас</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="./portfolio.html" class="mobile-menu__link link">Контакты</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#footer" class="mobile-menu__link link">Вопросы и ответы</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#footer" class="mobile-menu__link link">Команда</a>
+                    </li>
+                </ul>
+                <div class="mobile-menu__contacts-wrapper">
+                    <!-- <ul class="mobile-contacts-list list">
+                        <li class="mobile-contacts-list__item">
+                            <a class="mobile-contacts-list__tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+                        </li>
+                        <li class="mobile-contacts-list__item">
+                            <a class="mobile-contacts-list__mail link" href="mailto:info@devstudio.com"
+                                lang="en">info@devstudio.com</a>
+                        </li>
+                    </ul> -->
+                    <ul class="mobile-social-list list">
+                        <li class="mobile-social-list__item">
+                            <a href="" class="mobile-social-list__link link">Instagram</a>
+                        </li>
+                        <li class="mobile-social-list__item">
+                            <a href="" class="mobile-social-list__link link">Twitter</a>
+                        </li>
+                        <li class="mobile-social-list__item">
+                            <a href="" class="mobile-social-list__link link">Facebook</a>
+                        </li>
+                        <li class="mobile-social-list__item">
+                            <a href="" class="mobile-social-list__link link">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
         </div>       
     </header>
     <main>
@@ -154,35 +205,39 @@
     <section class="beliefs">
         <div class="container">
           <h2 class="section-title">Ложные убеждения</h2>
-          <ul class="beliefs-list">
+          <ul class="beliefs-list list">
               <li class="beliefs-list__item">
-                  <svg class="beliefs-list__icon">
-                    <use href="./images/header/shopping-cart.svg"></use>
-                  </svg>
+                  <img src="./images/warning.png" alt="warning-sign" class="beliefs-list__img" width="40px">
+                  <!-- <svg class="beliefs-list__icon">
+                    <use href="./images/warning.png"></use>
+                  </svg> -->
                   <h3 class="beliefs-list__subtitle">Это же финансовая пирамида</h3>
                   <p class="beliefs-list__about">НЕТ, это сетевой маркетинг. Бизнес основан на продаже товаров. Вам не нужно вкладывать деньги в "воздух" и ждать
                 мистических выплат. Вы забаратываете от продаж.</p>
               </li>
               <li class="beliefs-list__item">
-                  <svg class="beliefs-list__icon">
+                  <img src="./images/warning.png" alt="warning-sign" class="beliefs-list__img" width="40px">
+                  <!-- <svg class="beliefs-list__icon">
                     <use href="./images/header/shopping-cart.svg"></use>
-                  </svg>
+                  </svg> -->
                   <h3 class="beliefs-list__subtitle">Я не умею продавать</h3>
                   <p class="beliefs-list__about">Компания предлагает высококачественные товары для уборки дома и ухода за телом. Вам не нужны профессиональные навыки
                 продаж т.к люди самы выбирают продукцую, хотябы раз ее попробовав. Вы никому не будете ничего "впаривать".</p>
               </li>
               <li class="beliefs-list__item">
-                  <svg class="beliefs-list__icon">
+                  <img src="./images/warning.png" alt="warning-sign" class="beliefs-list__img" width="40px">
+                  <!-- <svg class="beliefs-list__icon">
                     <use href="./images/header/shopping-cart.svg"></use>
-                  </svg>
+                  </svg> -->
                   <h3 class="beliefs-list__subtitle">У меня нет времени на это</h3>
                   <p class="beliefs-list__about">Занимаясь сетевым бизнесом, вы сами решаете когда вам работать, а когда отдыхать. Нет никакого рабочего графика или
                 обязательств.</p>
               </li>
               <li class="beliefs-list__item">
-                  <svg class="beliefs-list__icon">
+                  <img src="./images/warning.png" alt="warning-sign" class="beliefs-list__img" width="40px">
+                  <!-- <svg class="beliefs-list__icon">
                     <use href="./images/header/shopping-cart.svg"></use>
-                  </svg>
+                  </svg> -->
                   <h3 class="beliefs-list__subtitle">Это не для меня - уже есть постоянная работа</h3>
                   <p class="beliefs-list__about">Бизнес абсолютно мобилен.Сможете совмещать его как с учебой, так и основной работой.                
                 Вы будете получать дополнительный заработок даже не выходя из дома. Все, что вам нужно, это интернет.</p>
@@ -268,7 +323,7 @@
                 <form action="#" class="signup-form">
                     <input type="text" name="user-name" placeholder="Имя" class="signup-form__input">
                     <input type="tel" name="user-phone" placeholder="Телефон" class="signup-form__input">
-                    <input type="text" name="user-message" placeholder="Добавьте сообщение..." class="signup-form__input">
+                    <input type="text" name="user-message" placeholder="Добавьте сообщение..." class="signup-form__input message">
                     <button type="submit" class="modal-btn">
                         <span class="signup-form__btn-wrapper">
                             <span class="modal-btn_title">Отправить</span>
@@ -318,6 +373,7 @@
         </div>
     </section>
     </main>
- 
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
