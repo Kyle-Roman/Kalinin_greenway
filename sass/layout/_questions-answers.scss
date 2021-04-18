@@ -1,0 +1,27 @@
+.question-list__item {
+  display: block;
+
+  &:nth-child(2n + 1) {
+    background-color: rgba(202, 255, 197, 0.363);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.section-title-about {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.questions-list__subtitle {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  line-height: 1.4;
+  font-weight: 900;
+}
+
+.questions-list__answer {
+  margin-bottom: 30px;
+  text-align: left;
+  line-height: 1.5;
+}
