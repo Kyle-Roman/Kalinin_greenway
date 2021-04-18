@@ -1,1 +1,37 @@
+.teamwork {
+  background-color: rgba(202, 255, 197, 0.363);
+}
 
+.teamwork-advs {
+  text-align: center;
+}
+
+.teamwork-advs__item {
+  margin-bottom: 30px;
+}
+
+.team-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.teamwork-advs__subtitle {
+  margin-top: 20px;
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.amature-list__title,
+.profs-list__title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.amature-list,
+.profs-list {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
