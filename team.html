@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Greenway Business-About us</title>
+    <title>Greenway Business-Team</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
         integrity="sha512-Zx6MlUMKSVJoQ+83OwhdILe8cSEsCzfqThJd7J/VA2UrK6Ctj85p+xzqfyuNXE5B1k25uUdmJ2OzItbBy9GHAQ=="
         crossorigin="anonymous" />
@@ -30,7 +30,7 @@
                     <a href="./about-us.html" class="navigation-bar__link link">О нас</a>
                 </li>
                 <li class="navigation-bar__item">
-                    <a href="./index.html#contacts" class="navigation-bar__link link">Контакты</a>
+                    <a href="#contacts" class="navigation-bar__link link">Контакты</a>
                 </li>
                 <li class="navigation-bar__item">
                     <a href="./questions.html" class="navigation-bar__link link">Вопросы и ответы</a>
@@ -58,11 +58,11 @@
             </button>
             <ul class="mobile-menu__list list">
                 <li class="mobile-menu__item">
-                    <a href="./about-us.html" class="mobile-menu__link link current">О нас</a>
+                    <a href="./about-us.html" class="mobile-menu__link link">О нас</a>
                 </li>
                 <li class="mobile-menu__item">
-                        <a href="./index.html#contacts" class="mobile-menu__link link">Контакты</a>
-                    </li>
+                    <a href="#contacts" class="mobile-menu__link link">Контакты</a>
+                </li>
                 <li class="mobile-menu__item">
                     <a href="./questions.html" class="mobile-menu__link link">Вопросы и ответы</a>
                 </li>
@@ -98,18 +98,32 @@
         </div>
     </header>
     <main>
-
-        <!-- ABOUT US -->
-    <section class="about-us">
+    
+    <!-- TEAM -->
+    <section class="team">
         <div class="container">
-            <h1 class="section-title">О нас</h1>
-            <h2 class="about-us__subtitle">Кто мы?</h2>
-            <p class="about-us-text">
-                С момента открытия в 2000 году мы приобрели огромный профессиональный опыт. Мы предоставляем нашим клиентам качественную
-                продукцию, исключительный сервис и заботу. Именно поэтому они всегда возвращаются к нам. Мы никогда не останавливаемся в
-                своем развитии и стремимся совершенствовать наши предложения с учетом пожеланий жителей г. Москва.
-            </p>
-            <button class="modal-btn dark" type="submit" data-modal-open>Связаться с нами</button>
+            <ul class="team-list list">
+                <li class="team-list__item">
+                    <img src="./images/teammates/teammate-1.webp" alt="" class="team-list__img">
+                    <h2 class="team-list__title">Имя Фамилия</h2>
+                    <p class="team-list__about">Сотрудник службы поддержки</p>
+                </li>
+                <li class="team-list__item">
+                    <img src="./images/teammates/teammate-2.webp" alt="" class="team-list__img">
+                    <h2 class="team-list__title">Имя Фамилия</h2>
+                    <p class="team-list__about">Помощник управляющего</p>
+                </li>
+                <li class="team-list__item">
+                    <img src="./images/teammates/teammate-3.webp" alt="" class="team-list__img">
+                    <h2 class="team-list__title">Имя Фамилия</h2>
+                    <p class="team-list__about">Помощник управляющего</p>
+                </li>
+                <li class="team-list__item">
+                    <img src="./images/teammates/teammate-4.webp" alt="" class="team-list__img">
+                    <h2 class="team-list__title">Имя Фамилия</h2>
+                    <p class="team-list__about">Администратор</p>
+                </li>
+            </ul>
         </div>
     </section>
 
@@ -152,4 +166,3 @@
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
 </body>
-</html>
