@@ -113,6 +113,8 @@ img {
 .modal-btn {
   min-width: 200px;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 5px 22px;
   font-weight: 700;
   font-size: 16px;
@@ -398,6 +400,11 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.form-suptitle {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
 .social-list {
   display: flex;
   align-items: center;
@@ -455,7 +462,7 @@ img {
 .hero {
   margin: 0 auto;
   padding-top: 118px;
-  padding-bottom: 118px;
+  padding-bottom: 70px;
   background-color: #c4c4c4;
   text-align: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.webp);
@@ -467,10 +474,19 @@ img {
 .hero-title {
   margin-bottom: 30px;
   font-weight: 900;
-  font-size: 26px;
+  font-size: 30px;
   line-height: 1.615;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: var(--accent-text-color);
+}
+
+.hero-advs {
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  line-height: 1.6;
   color: var(--accent-text-color);
 }
 
@@ -500,6 +516,7 @@ img {
 
 .about-info {
   margin-top: 20px;
+  margin-bottom: 20px;
   text-align: start;
   font-size: 12px;
   line-height: 1.75;
@@ -515,11 +532,17 @@ img {
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: top left;
+  line-height: 1.4;
+}
+
+.advantages-list__about {
+  line-height: 1.6;
 }
 
 .list-item-title {
   margin-bottom: 10px;
   margin-top: 10px;
+  text-transform: uppercase;
   color: var(--accent-color);
 }
 
@@ -569,6 +592,10 @@ img {
   color: var(--accent-text-color);
 }
 
+.signup-form__input {
+  margin-bottom: 10px;
+}
+
 .beliefs-list__img {
   display: block;
   margin: auto;
@@ -615,6 +642,10 @@ img {
   margin-bottom: 10px;
 }
 
+.teamwork-advs__about {
+  line-height: 1.8;
+}
+
 .amature-list__title,
 .profs-list__title {
   font-size: 20px;
@@ -653,6 +684,8 @@ img {
 
 .question-list__item {
   display: block;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .question-list__item:nth-child(2n + 1) {

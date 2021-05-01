@@ -1,5 +1,7 @@
 .question-list__item {
   display: block;
+  padding-left: 10px;
+  padding-right: 10px;
 
   &:nth-child(2n + 1) {
     background-color: rgba(202, 255, 197, 0.363);
