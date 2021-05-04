@@ -11,6 +11,7 @@
   --social-logo: #afb1b8;
   --section-pt: 60px;
   --section-pb: 60px;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .visually-hidden {
@@ -462,19 +463,19 @@ img {
 .back-to-top {
   position: fixed;
   right: 10px;
-  bottom: 150px;
+  bottom: 20px;
   width: 50px;
   height: 50px;
   border-color: transparent;
   border-radius: 50px;
-  background-color: var(--accent-color-main);
+  background-color: var(--social-logo);
   display: none;
   animation: back-to-top 600ms 2 alternate ease-in-out;
   transition: background-color 250ms var(--timing-function);
 }
 
 .back-to-top:hover, .back-to-top:focus {
-  background-color: var(--accent-color-secondary);
+  background-color: var(--accent-color);
   animation: back-to-top 600ms infinite alternate ease-in-out;
 }
 

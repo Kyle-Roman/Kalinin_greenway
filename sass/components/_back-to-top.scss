@@ -1,12 +1,12 @@
 .back-to-top {
   position: fixed;
   right: 10px;
-  bottom: 150px;
+  bottom: 20px;
   width: 50px;
   height: 50px;
   border-color: transparent;
   border-radius: 50px;
-  background-color: var(--accent-color-main);
+  background-color: var(--social-logo);
 
   display: none;
 
@@ -16,7 +16,7 @@
 
   &:hover,
   &:focus {
-    background-color: var(--accent-color-secondary);
+    background-color: var(--accent-color);
 
     animation: back-to-top 600ms infinite alternate ease-in-out;
   }
