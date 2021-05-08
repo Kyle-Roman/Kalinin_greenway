@@ -24,11 +24,11 @@
     cursor: pointer;
   }
 
-  &.dark {
+  & .dark {
     color: var(--accent-text-color);
   }
 
-  &.light {
+  & .light {
     color: var(--logo-text-main);
   }
 }

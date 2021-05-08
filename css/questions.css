@@ -91,10 +91,11 @@ img {
 
 .logo {
   position: absolute;
-  top: 10px;
+  top: 20px;
   left: 15px;
   display: block;
   margin-right: 20px;
+  fill: var(--accent-color);
 }
 
 .navigation-bar {
@@ -135,11 +136,11 @@ img {
   cursor: pointer;
 }
 
-.modal-btn.dark {
+.modal-btn .dark {
   color: var(--accent-text-color);
 }
 
-.modal-btn.light {
+.modal-btn .light {
   color: var(--logo-text-main);
 }
 
@@ -496,6 +497,7 @@ img {
   justify-content: center;
   align-items: center;
   width: 100vw;
+  height: 70px;
   position: fixed;
   z-index: 1;
   background-color: var(--accent-color);
@@ -505,14 +507,45 @@ img {
   display: none;
 }
 
-@media screen and (min-width: 480px) {
+.home-svg {
+  width: 35px;
+  height: 35px;
+  padding: 2px 2px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  background-color: var(--accent-text-color);
+}
+
+.burger-icon {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  fill: var(--accent-text-color);
+}
+
+@media screen and (min-width: 768px) {
   .navigation-bar {
     display: block;
   }
 }
 
-.about {
+.about-us {
+  padding-top: 60px;
   text-align: center;
+}
+
+.about-us .section-title {
+  text-align: left;
+}
+
+.about-us__subtitle {
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.about-us-text {
+  text-align: left;
+  line-height: 1.6;
 }
 
 .about-info {
@@ -704,6 +737,10 @@ img {
   resize: none;
   box-sizing: border-box;
   min-height: 80px;
+}
+
+.questions-answers {
+  padding-top: 40px;
 }
 
 .question-list__item {

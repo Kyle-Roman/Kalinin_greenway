@@ -21,27 +21,29 @@
     <header class="header">
         <div class="container">
             <a href="./index.html" class="logo link">
-                <img src="./images/home (1).png" alt="homepage" width="20px">
+                <svg class="home-svg">
+                    <use href="./images/sprite.svg#home1"></use>
+                </svg>
             </a>
             <ul class="navigation-bar list">
                 <li class="navigation-bar__item">
                     <a href="./about-us.html" class="navigation-bar__link link">О нас</a>
-                </li>
-                <li class="navigation-bar__item">
-                    <a href="#contacts" class="navigation-bar__link link">Контакты</a>
-                </li>
+                </li>                
                 <li class="navigation-bar__item">
                     <a href="./questions.html" class="navigation-bar__link link">Вопросы и ответы</a>
                 </li>
                 <li class="navigation-bar__item">
                     <a href="./team.html" class="navigation-bar__link link">Команда</a>
                 </li>
+                <li class="navigation-bar__item">
+                    <a href="#signup" class="navigation-bar__link link">Контакты</a>
+                </li>
             </ul>
-            <div class="cart-page">
+            <!-- <div class="cart-page">
                 <a href="" class="cart-page__item">
                     <img src="./images/header/shopping-cart.png" alt="cart" width="20px">
                 </a>
-            </div>
+            </div> -->
             <button type="button" class="burger-btn" data-menu-button>
                 <svg class="burger-icon">
                     <use href="./images/sprite.svg#icon-burger"></use>
@@ -57,15 +59,15 @@
                 <ul class="mobile-menu__list list">
                     <li class="mobile-menu__item">
                         <a href="./about-us.html" class="mobile-menu__link link">О нас</a>
-                    </li>
-                    <li class="mobile-menu__item">
-                        <a href="#contacts" class="mobile-menu__link link">Контакты</a>
-                    </li>
+                    </li>                    
                     <li class="mobile-menu__item">
                         <a href="./questions.html" class="mobile-menu__link link">Вопросы и ответы</a>
                     </li>
                     <li class="mobile-menu__item">
                         <a href="./team.html" class="mobile-menu__link link">Команда</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#signup" class="mobile-menu__link link">Контакты</a>
                     </li>
                 </ul>
                 <div class="mobile-menu__contacts-wrapper">
@@ -106,7 +108,7 @@
                 <li class="hero-advs__item">БЕЗ стартового капитала</li>
                 <li class="hero-advs__item">БЕЗ ограничений дохода</li>
             </ul>            
-            <button class="modal-btn dark" type="submit" data-modal-open>Узнать больше</button>
+            <a href="#income" class="modal-btn dark link" type="submit" data-modal-open>Узнать больше</a>
         </div>
     </section>
 
@@ -186,20 +188,14 @@
     <!-- INVITATION -->
     <section class="invitation">
         <div class="container">
+            <a href="" class="anchor" id="income"></a>
             <h2 class="section-title">Узнайте как создать пассивный доход</h2>
             <div class="invitation-form">
                 <!-- <b class="form-suptitle">Начните сейчас</b> -->
                 <form action="#" class="signup-form">
                     <input type="text" name="user-name" placeholder="Имя" class="signup-form__input">
                     <input type="tel" name="user-phone" placeholder="Телефон" class="signup-form__input">
-                    <button type="submit" class="modal-btn">
-                        <span class="signup-form__btn-wrapper">
-                            <span class="modal-btn_title">Отправить</span>
-                            <!-- <svg class="modal-btn_icon">
-                                        <use href="./images/sprite.svg#icon-send"></use>
-                                    </svg> -->
-                        </span>
-                    </button>
+                    <button type="submit" class="modal-btn">Отправить</button>
                 </form>
             </div>
         </div>        
@@ -308,35 +304,28 @@
             <!-- <div class="signup__img-wrapper">
                 <img src="./images/Business-owner.webp" alt="" width="200px">
             </div> -->
-            <div class="invitation-form">
-                <!-- <b class="form-suptitle">Начните сейчас</b> -->
+            <!-- <div class="invitation-form">
+                <b class="form-suptitle">Начните сейчас</b>
                 <form action="#" class="signup-form">
                     <input type="text" name="user-name" placeholder="Имя" class="signup-form__input">
                     <input type="tel" name="user-phone" placeholder="Телефон" class="signup-form__input">
                     <button type="submit" class="modal-btn">
                         <span class="signup-form__btn-wrapper">
                             <span class="modal-btn_title">Отправить</span>
-                            <!-- <svg class="modal-btn_icon">
+                            <svg class="modal-btn_icon">
                                                     <use href="./images/sprite.svg#icon-send"></use>
-                                                </svg> -->
+                                                </svg>
                         </span>
                     </button>
                 </form>
-            </div>
+            </div> -->
             <div class="invitation-form">
                 <b class="form-suptitle">Или просто узнайте больше</b>
                 <form action="#" class="signup-form">
                     <input type="text" name="user-name" placeholder="Имя" class="signup-form__input">
                     <input type="tel" name="user-phone" placeholder="Телефон" class="signup-form__input">
                     <input type="text" name="user-message" placeholder="Добавьте сообщение..." class="signup-form__input message">
-                    <button type="submit" class="modal-btn">
-                        <span class="signup-form__btn-wrapper">
-                            <span class="modal-btn_title">Отправить</span>
-                            <!-- <svg class="modal-btn_icon">
-                                                                <use href="./images/sprite.svg#icon-send"></use>
-                                                            </svg> -->
-                        </span>
-                    </button>
+                    <button type="submit" class="modal-btn">Отправить</button>
                 </form>
             </div>
         </div>

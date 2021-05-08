@@ -23,14 +23,13 @@
     <header class="header">
         <div class="container">
             <a href="./index.html" class="logo link">
-                <img src="./images/home (1).png" alt="homepage" width="20px">
+                <svg class="home-svg">
+                    <use href="./images/sprite.svg#home1"></use>
+                </svg>
             </a>
             <ul class="navigation-bar list">
                 <li class="navigation-bar__item">
                     <a href="./about-us.html" class="navigation-bar__link link">О нас</a>
-                </li>
-                <li class="navigation-bar__item">
-                    <a href="./index.html#contacts" class="navigation-bar__link link">Контакты</a>
                 </li>
                 <li class="navigation-bar__item">
                     <a href="./questions.html" class="navigation-bar__link link">Вопросы и ответы</a>
@@ -38,12 +37,15 @@
                 <li class="navigation-bar__item">
                     <a href="./team.html" class="navigation-bar__link link">Команда</a>
                 </li>
+                <li class="navigation-bar__item">
+                    <a href="./index.html#signup" class="navigation-bar__link link">Контакты</a>
+                </li>
             </ul>
-            <div class="cart-page">
-                <a href="" class="cart-page__item">
-                    <img src="./images/header/shopping-cart.png" alt="cart" width="20px">
-                </a>
-            </div>
+            <!-- <div class="cart-page">
+                    <a href="" class="cart-page__item">
+                        <img src="./images/header/shopping-cart.png" alt="cart" width="20px">
+                    </a>
+                </div> -->
             <button type="button" class="burger-btn" data-menu-button>
                 <svg class="burger-icon">
                     <use href="./images/sprite.svg#icon-burger"></use>
@@ -58,28 +60,28 @@
             </button>
             <ul class="mobile-menu__list list">
                 <li class="mobile-menu__item">
-                    <a href="./about-us.html" class="mobile-menu__link link current">О нас</a>
+                    <a href="./about-us.html" class="mobile-menu__link link">О нас</a>
                 </li>
-                <li class="mobile-menu__item">
-                        <a href="./index.html#contacts" class="mobile-menu__link link">Контакты</a>
-                    </li>
                 <li class="mobile-menu__item">
                     <a href="./questions.html" class="mobile-menu__link link">Вопросы и ответы</a>
                 </li>
                 <li class="mobile-menu__item">
                     <a href="./team.html" class="mobile-menu__link link">Команда</a>
                 </li>
+                <li class="mobile-menu__item">
+                    <a href="./index.html#signup" class="mobile-menu__link link">Контакты</a>
+                </li>
             </ul>
             <div class="mobile-menu__contacts-wrapper">
                 <!-- <ul class="mobile-contacts-list list">
-                        <li class="mobile-contacts-list__item">
-                            <a class="mobile-contacts-list__tel link" href="tel:+380961111111">+38 096 111 11 11</a>
-                        </li>
-                        <li class="mobile-contacts-list__item">
-                            <a class="mobile-contacts-list__mail link" href="mailto:info@devstudio.com"
-                                lang="en">info@devstudio.com</a>
-                        </li>
-                    </ul> -->
+                            <li class="mobile-contacts-list__item">
+                                <a class="mobile-contacts-list__tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+                            </li>
+                            <li class="mobile-contacts-list__item">
+                                <a class="mobile-contacts-list__mail link" href="mailto:info@devstudio.com"
+                                    lang="en">info@devstudio.com</a>
+                            </li>
+                        </ul> -->
                 <ul class="mobile-social-list list">
                     <li class="mobile-social-list__item">
                         <a href="" class="mobile-social-list__link link">Instagram</a>
