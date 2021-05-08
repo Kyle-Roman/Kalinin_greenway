@@ -16,3 +16,17 @@
   font-size: 14px;
   line-height: 1.4;
 }
+
+@media screen and (min-width: 768px) {
+  .beliefs-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .beliefs-list__item {
+    margin-left: 20px;
+    flex-basis: calc(100% / 2 - 30px);
+  }
+}

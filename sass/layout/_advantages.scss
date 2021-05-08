@@ -46,8 +46,10 @@
 }
 
 .advantages-list-wrapper {
+  max-width: 50%;
   padding-bottom: 20px;
   padding-top: 20px;
+  margin-left: 20px;
 }
 
 .picture-wrapper-1 {
@@ -82,6 +84,24 @@
   background-position: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .advs-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+    padding-top: 0;
+    flex-basis: calc(100% / 2 - 30px);
+  }
+
+  .picture-wrapper-1,
+  .picture-wrapper-2 {
+    min-width: 50%;
+    padding-bottom: 0;
+    padding-top: 0;
+    height: 350px;
+  }
+}
 // .advantages-img {
 //   width: 100vw;
 // }

@@ -12,9 +12,7 @@
 
 .team-img {
   object-fit: cover;
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
+  width: 200px;
   margin: 0 auto;
 }
 
@@ -37,6 +35,17 @@
 
 .amature-list,
 .profs-list {
-  line-height: 1.5;
+  line-height: 2;
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .teamwork-advs {
+    display: flex;
+  }
+
+  .teamwork-advs__item {
+    width: 200px;
+    flex-basis: calc(100% / 3);
+  }
 }
