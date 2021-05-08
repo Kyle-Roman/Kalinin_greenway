@@ -596,6 +596,30 @@ img {
   line-height: 1.4;
 }
 
+.advantages-list__item.freedom {
+  background-image: url("../images/markers/freedom.svg");
+}
+
+.advantages-list__item.capital {
+  background-image: url("../images/markers/capital.svg");
+}
+
+.advantages-list__item.easy {
+  background-image: url("../images/markers/easy.svg");
+}
+
+.advantages-list__item.savings {
+  background-image: url("../images/markers/savings.svg");
+}
+
+.advantages-list__item.income {
+  background-image: url("../images/markers/income.svg");
+}
+
+.advantages-list__item.earnings {
+  background-image: url("../images/markers/earnings.svg");
+}
+
 .advantages-list__about {
   line-height: 1.6;
 }

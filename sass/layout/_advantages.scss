@@ -9,6 +9,30 @@
   background-size: 20px;
   background-position: top left;
   line-height: 1.4;
+
+  &.freedom {
+    background-image: url("../images/markers/freedom.svg");
+  }
+
+  &.capital {
+    background-image: url("../images/markers/capital.svg");
+  }
+
+  &.easy {
+    background-image: url("../images/markers/easy.svg");
+  }
+
+  &.savings {
+    background-image: url("../images/markers/savings.svg");
+  }
+
+  &.income {
+    background-image: url("../images/markers/income.svg");
+  }
+
+  &.earnings {
+    background-image: url("../images/markers/earnings.svg");
+  }
 }
 
 .advantages-list__about {
