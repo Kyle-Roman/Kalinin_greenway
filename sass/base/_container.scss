@@ -14,11 +14,31 @@
     text-align: center;
   }
 
-  .about & {
+  .about-us & {
     padding: 100px 100px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/about-us.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--accent-text-color);
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .questions-answers .container {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+
+  .question-list__item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
 //   .hero & {
 //     max-width: 400px;
 //   }
