@@ -91,9 +91,9 @@
 }
 
 .mobile-social-list {
-  display: flex;
-  justify-content: left;
-  margin-left: -10px;
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mobile-social-list__item:not(:last-child) {

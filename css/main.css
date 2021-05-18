@@ -291,9 +291,9 @@ img {
 }
 
 .mobile-social-list {
-  display: flex;
-  justify-content: left;
-  margin-left: -10px;
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mobile-social-list__item:not(:last-child) {
@@ -432,7 +432,8 @@ img {
 }
 
 .checkbox__label {
-  font-size: 16px;
+  margin-top: 10px;
+  font-size: 14px;
   line-height: 1.4;
   display: inline-flex;
   align-items: center;
@@ -650,7 +651,7 @@ img {
 
 .burger-icon {
   position: absolute;
-  top: 20px;
+  top: 25px;
   right: 15px;
   fill: var(--accent-text-color);
 }
@@ -666,6 +667,46 @@ img {
     margin-right: 40px;
   }
   .navigation-bar__link {
+    color: var(--accent-text-color);
+  }
+}
+
+.languages {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .languages {
+    display: flex;
+    position: absolute;
+    top: 26px;
+    right: 40px;
+  }
+}
+
+.languages__item {
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .mob {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+  }
+}
+
+.lang {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--accent-color);
+}
+
+@media screen and (min-width: 768px) {
+  .lang {
+    font-size: 15px;
     color: var(--accent-text-color);
   }
 }
