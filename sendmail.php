@@ -21,13 +21,13 @@
     $body = '<h1>Hawdy partner!</h1>';
 
     if(trim(!empty($_POST['name']))){
-        $body.='<p><strong>Имя:</strong> '.$_POST['user-name'].'</p>';
+        $body.='<p><strong>Имя:</strong> '.$_POST['name'].'</p>';
     }
     if(trim(!empty($_POST['phone']))){
-        $body.='<p><strong>Телефон:</strong> '.$_POST['user-phone'].'</p>';
+        $body.='<p><strong>Телефон:</strong> '.$_POST['phone'].'</p>';
     }
     if(trim(!empty($_POST['message']))){
-        $body.='<p><strong>Сообщение:</strong> '.$_POST['user-message'].'</p>';
+        $body.='<p><strong>Сообщение:</strong> '.$_POST['message'].'</p>';
     }
 
 
