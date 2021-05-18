@@ -331,11 +331,12 @@
                 </form>
             </div> -->
             <div class="invitation-form">
-                <b class="form-suptitle">Или просто узнайте больше</b>
-                <form action="#" class="signup-form">
-                    <input type="text" name="user-name" placeholder="Имя" class="signup-form__input">
-                    <input type="tel" name="user-phone" placeholder="Телефон" class="signup-form__input">
+                <form action="#" id="form" class="signup-form">
+                    <b class="form-suptitle">Или просто узнайте больше</b>
+                    <input type="text" name="user-name" placeholder="Имя" class="signup-form__input _req _name">
+                    <input type="tel" name="user-phone" placeholder="Телефон" class="signup-form__input _req">
                     <input type="text" name="user-message" placeholder="Добавьте сообщение..." class="signup-form__input message">
+                    <p class="data_agreement">Согласен на обработку и использование моих персональных данных в целях получения обратной связи.</p>
                     <button type="submit" class="modal-btn">Отправить</button>
                 </form>
             </div>
@@ -386,6 +387,7 @@
     <script src="./js/back-to-top.js"></script>
     <script src="./js/anim-scroll.js"></script>
     <script src="./js/anchor-scroll.js"></script>
+    <script src="./mailsender.js"></script>
 
 </body>
 </html>
