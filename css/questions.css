@@ -415,6 +415,10 @@ img {
   text-transform: uppercase;
 }
 
+.agreement_text {
+  color: var(--accent-text-color);
+}
+
 .checkbox {
   display: block;
 }
@@ -446,6 +450,13 @@ img {
   margin-right: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .checkbox__label::before {
+    flex: 0 0 24px;
+    height: 24px;
+  }
+}
+
 .checkbox__label::after {
   content: "";
   width: 15px;
@@ -457,6 +468,15 @@ img {
   border-radius: 4px;
   transform: scale(0);
   transition: transform 0.2s ease 0s;
+}
+
+@media screen and (min-width: 768px) {
+  .checkbox__label::after {
+    width: 16px;
+    height: 16px;
+    top: 4px;
+    left: 4px;
+  }
 }
 
 .social-list {
