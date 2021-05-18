@@ -333,10 +333,14 @@
             <div class="invitation-form">
                 <form action="#" id="form" class="signup-form">
                     <b class="form-suptitle">Или просто узнайте больше</b>
-                    <input type="text" name="user-name" placeholder="Имя" class="signup-form__input _req _name">
-                    <input type="tel" name="user-phone" placeholder="Телефон" class="signup-form__input _req">
-                    <input type="text" name="user-message" placeholder="Добавьте сообщение..." class="signup-form__input message">
-                    <p class="data_agreement">Согласен на обработку и использование моих персональных данных в целях получения обратной связи.</p>
+                    <input type="text" name="name" placeholder="Имя*" class="signup-form__input _req _name">
+                    <input type="tel" name="phone" placeholder="Телефон*" class="signup-form__input _req">
+                    <textarea type="text" name="message" placeholder="Добавьте сообщение...*" class="signup-form__input message"></textarea>
+                    <div class="checkbox">
+                        <input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input">
+                        <label for="formAgreement" class="checkbox__label"><span>Согласен на обработку и использование моих персональных данных в целях получения обратной
+                        связи.</span></label>
+                    </div>
                     <button type="submit" class="modal-btn">Отправить</button>
                 </form>
             </div>
@@ -382,7 +386,7 @@
 
     <a aria-label="Scroll to top button" href="#" class="back-to-top" style="display: inline;"></a>
 
-    <script src="./js/modal.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
     <script src="./js/mobile-menu.js"></script>
     <script src="./js/back-to-top.js"></script>
     <script src="./js/anim-scroll.js"></script>
